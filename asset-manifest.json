@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EventEase-react/static/css/main.48b6a113.css",
+    "main.js": "/EventEase-react/static/js/main.3215d8c7.js",
+    "static/js/453.abdfe4c5.chunk.js": "/EventEase-react/static/js/453.abdfe4c5.chunk.js",
+    "static/media/main1.avif": "/EventEase-react/static/media/main1.1a924798d2383a71a04f.avif",
+    "static/media/7decor.png": "/EventEase-react/static/media/7decor.f2710be9847bde2290e7.png",
+    "static/media/venue-3.jpg": "/EventEase-react/static/media/venue-3.2c4a6920150940b31c39.jpg",
+    "static/media/slide11.jpg": "/EventEase-react/static/media/slide11.f0d66a3ebabaed438b84.jpg",
+    "static/media/im66.jpg": "/EventEase-react/static/media/im66.79b93b2a8122667deeff.jpg",
+    "static/media/im3.jpg": "/EventEase-react/static/media/im3.4635a6ee477d9bac57a2.jpg",
+    "static/media/im55.jpg": "/EventEase-react/static/media/im55.3c9f162b75c631b0185f.jpg",
+    "static/media/venue-1.jpg": "/EventEase-react/static/media/venue-1.328f46833395d79f9a65.jpg",
+    "static/media/venue-4.jpg": "/EventEase-react/static/media/venue-4.e48a3021c35dfe5df0a3.jpg",
+    "static/media/seminar11.png": "/EventEase-react/static/media/seminar11.f99f25b775005b99b977.png",
+    "static/media/im33.jpg": "/EventEase-react/static/media/im33.98f7e8714a3f7f9394d0.jpg",
+    "static/media/im333.jpg": "/EventEase-react/static/media/im333.6844785cb7c0345ddc9b.jpg",
+    "static/media/venue-22.jpg": "/EventEase-react/static/media/venue-22.4ba2b3555ee49eb9b13f.jpg",
+    "static/media/download.jpg": "/EventEase-react/static/media/download.994738b07c946e5021a4.jpg",
+    "index.html": "/EventEase-react/index.html",
+    "main.48b6a113.css.map": "/EventEase-react/static/css/main.48b6a113.css.map",
+    "main.3215d8c7.js.map": "/EventEase-react/static/js/main.3215d8c7.js.map",
+    "453.abdfe4c5.chunk.js.map": "/EventEase-react/static/js/453.abdfe4c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b6a113.css",
+    "static/js/main.3215d8c7.js"
+  ]
+}
