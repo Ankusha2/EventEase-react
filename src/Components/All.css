@@ -429,10 +429,10 @@ text-align: center;
   /* background-image: linear-gradient(to top, #eedbe5 0%, #c8d1de 100%); */
    display: flex;
   width: 100%;
-   justify-content: center;
+   justify-content: center; 
   align-items: center;
   height: 600px;
-  margin: 10; /* Remove default margin */
+  margin: 0; /* Remove default margin */
 }
 #contact .form-control,
 #contact .input-box {
@@ -440,7 +440,6 @@ text-align: center;
   color: rgb(110, 95, 95);
   border: 2px solid black;
   height: 50px;
-display: block;
 }
 #contact form .form-control:focus {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #4067a4 100%);

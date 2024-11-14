@@ -21,12 +21,6 @@ export default function Navbar() {
             <Link to="/about" className="nav-link active" ><i className="fa-solid fa-circle-user"></i> AboutUs</Link>
           </li>
           <li className="nav-item">
-            <Link to="/booking" className="nav-link active" ><i className="fa-solid fa-address-book"></i> Booking</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/price" className="nav-link active"><i className="fa-solid fa-money-bill-wave"></i> Price</Link>
-          </li>
-          <li className="nav-item">
             <Link to="/services" className="nav-link active" ><i className="fa-solid fa-briefcase"></i> Services</Link>
           </li>
           <li className="nav-item">
@@ -34,6 +28,12 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/gallery" className="nav-link active" ><i className="fa-solid fa-image"></i> Gallery</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/price" className="nav-link active"><i className="fa-solid fa-money-bill-wave"></i> Price</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/booking" className="nav-link active" ><i className="fa-solid fa-address-book"></i> Booking</Link>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-link active" ><i className="fa-solid fa-user"></i> Contact Us</Link>
