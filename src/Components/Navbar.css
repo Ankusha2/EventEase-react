@@ -1,0 +1,11 @@
+#one{
+    color: #ffffff;
+    font-size: 30px;
+}
+ .nav-link:hover {
+    color: #090909 !important; /* Yellow on hover */
+    background-color: #ffffff !important;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20px;
+  }

@@ -1,0 +1,481 @@
+/* CSS for Home page */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/Images/main1.avif);
+  /* opacity: 0.8; */
+  background-color: rgba(253, 249, 249, 0.5); /* Overlay color and opacity */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: 100% 722px;
+}
+.content {
+  margin-left: 20px;
+  margin-bottom: 300px;
+  justify-items: left;
+  text-align: left;
+}
+.text {
+  color: rgb(8, 1, 1);
+  font-size: 45px;
+  font-weight: 500;
+  text-shadow: 0px 1px 1px black;
+  padding-top: 200px;
+  justify-content: left;
+}
+.h1 {
+  font-size: 30px;
+  font-weight: 350;
+  text-shadow: 0px 1px 1px black;
+  margin-top: 19px;
+  margin-bottom: 0px;
+  justify-content: left;
+}
+.changecontent::after {
+  content: " ";
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 1px 1px black;
+  animation: changetext 10s infinite linear;
+}
+@keyframes changetext {
+  0% {
+    content: "Wedding";
+  }
+  20% {
+    content: "Birthday Party";
+  }
+  40% {
+    content: "Anniversary Party";
+  }
+  60% {
+    content: "Corporate Event";
+  }
+  80% {
+    content: "Seminar";
+  }
+  100% {
+    content: "Product Event";
+  }
+}
+.btn-book {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px;
+  margin-top: 5px;
+  display: flex;
+}
+.btn-book:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+}
+@media (max-width: 720px) {
+  .home {
+    padding: 0;
+  }
+  h5,
+  .h1 {
+    padding: 4px;
+  }
+  .content {
+    margin-left: 0px;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+/* about section start */
+#image {
+  width: 500px;
+  height: 500px;
+  background-image: url(./../Images/im3.jpg) !important;
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+  margin-left: 75px;
+}
+#div1 {
+  border: none;
+  height: fit-content;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+h3 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+#div2 {
+  margin-top: 50px;
+}
+#div4 {
+  width: 500px !important ;
+  height: 500px !important;
+}
+h5 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+/* Booking Component start */
+#div22 {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+#div33 {
+  margin-top: 60px;
+}
+#div44 {
+  background-image: url(/src/Images/7decor.png);
+  height: 405px;
+  width: 500px;
+  border-style: solid;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  margin-left: 140px;
+  margin-right: 70px;
+}
+#div66 {
+  width: 10px;
+  margin-left: 160px;
+}
+.form-control,
+.input-box {
+  background-color: rgb(237, 195, 195);
+  color: rgb(110, 95, 95);
+  border: 2px solid black;
+  width: 450px;
+  height: 50px;
+}
+#div66 input:focus {
+  background-color: rgb(232,218,218); /* Change background color on click (focus) */
+  border: 2px solid black; /* Custom border on focus */
+}
+#div66 textarea:focus {
+  background-color: rgb(232,218,218); /* Change background color on click (focus) */
+  border: 2px solid black; /* Custom border on focus */
+}
+
+.btn {
+  background-color: rgb(199, 142, 142) !important;
+  margin-left: 180px;
+  width: 100px;
+  height: 46px;
+  font-weight: 500;
+  border: 2px solid black;
+}
+.btn:hover {
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+/* Price component */
+#image-p1 {
+  background-image: url(/src/Images/venue-1.jpg);
+  height: 200px;
+  border-radius: 20px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#image-p2 {
+  background-image: url(/src/Images/slide11.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+#image-p3 {
+  background-image: url(/src/Images/im55.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+#image-p4 {
+  background-image: url(/src/Images/im33.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+#image-p5 {
+  background-image: url(/src/Images/seminar11.png);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+#image-p6 {
+  background-image: url(/src/Images/download.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+#p1 {
+  margin-left: 20px;
+  width: 100%;
+}
+#a2 {
+  text-align: center;
+  text-shadow: 0px 1px 1px black;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#p2 {
+  justify-self: center;
+  width: 90%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.col .card {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  width: 90%;
+}
+.btn-price {
+  border-radius: 20px;
+  background-image: linear-gradient(135deg, #c2bfbb 0%, #e1b998 100%);
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-price:hover {
+  font-weight: bold;
+  font-size: large;
+}
+.card-text {
+  text-align: left;
+}
+.icons {
+  text-align: center;
+}
+/* Services */
+#services{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+@media (max-width: 1000px) {
+  #servies {
+    grid-template-columns: repeat(1, 1fr); /* One columns */
+  }
+}
+@media ( (min-width: 1000px) and (max-width: 1400px)) {
+  #services {
+    grid-template-columns: repeat(2, 1fr); /* two columns */
+  }
+}
+#services #g1{
+  height: 250px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 30px -6px black;
+  margin: 10px;
+text-align: center;
+}
+#services #g1 i {
+  margin-top: 20px;
+}
+#services h1 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#services #g1 #btn-ser {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#services #g1 #btn-ser:hover {
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* GALLERY */
+#gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+@media (max-width: 1000px) {
+  #gallery {
+    grid-template-columns: repeat(1, 1fr); /* One columns */
+  }
+}
+@media ( (min-width: 1000px) and (max-width: 1400px)) {
+  #gallery {
+    grid-template-columns: repeat(2, 1fr); /* two columns */
+  }
+}
+#gallery #g1 {
+  padding: 10px;
+}
+#gallery #g1 img {
+  height: 270px;
+  width: 420px;
+  box-shadow: 0px 5px 30px -6px rgb(207, 150, 150);
+}
+
+/* BLOG..... */
+#blog {
+  height: fit-content;
+  width: fit-content;
+}
+#blog #b1 {
+  margin-left: 20px;
+}
+#blog .col .card-body,
+.card-footer {
+  background-image: linear-gradient(to top, #d4cbd0 0%, #c6d3e7 100%);
+}
+.card #im1 {
+  background-image: url(/src/Images/venue-4.jpg);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card #im2 {
+  background-image: url(/src/Images/im333.jpg);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.card #im3 {
+  background-image: url(/src/Images/venue-22.jpg);
+  height: 300px;
+  width: 100%;
+}
+.card-body h4,
+.card-body p {
+  text-align: left;
+  margin-left: 0%;
+}
+.card-footer {
+  text-align: center;
+}
+/* Contact  */
+#contact {
+  background-image: linear-gradient(to top, #eedbe5 0%, #c8d1de 100%);
+  display: grid;
+  place-items: center; /*Center both vertically and horizontally */
+  height: 670px;
+  margin: 0; /* Remove default margin */
+}
+#contact .form-control,
+#contact .input-box {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: rgb(110, 95, 95);
+  border: 2px solid black;
+  width: 450px;
+  height: 50px;
+}
+#contact form .form-control:focus {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #4067a4 100%);
+  border: 2px solid black; /* Custom border on focus */
+}
+#contact form .input-box:focus {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #4067a4 100%);
+  border: 2px solid black;
+}
+
+#contact form .btn {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #769edf 100%);
+  margin-left: 180px;
+  width: 100px;
+  height: 46px;
+  font-weight: 500;
+  border: 2px solid black;
+}
+#contact form .btn:hover {
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #2d4772 100%);
+}
+
+/* Footer.. */
+.footer {
+  padding: 1rem 3rem;
+  background: #212020;
+  color: white;
+  margin-top: 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.top a i {
+  color: rgb(250, 253, 255);
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.top i:hover {
+  color: rgb(246, 192, 122);
+}
+.top p {
+  margin-left: 0%;
+}
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+}
+.bottom a {
+  text-decoration: none;
+  color: wheat;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
