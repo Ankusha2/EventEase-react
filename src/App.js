@@ -16,8 +16,9 @@ export default function App() {
   return (
     <div>
       <Navbar />
+      <Home/>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        {/* <Route path="/" element={<Home />}></Route> */}
         <Route path="/about" element={<About />}></Route>
         <Route path="/booking" element={<Booking />}></Route>
         <Route path="/price" element={<Price />}></Route>
