@@ -1,6 +1,5 @@
 import React from "react";
 import "./All.css";
-
 import About from "./About";
 import Booking from "./Booking";
 import Price from "./Price";
@@ -8,6 +7,7 @@ import Services from "./Services";
 import Gallery from "./Gallery";
 import Blog from "./Blog";
 import Footer from "./Footer";
+// import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -25,11 +25,12 @@ export default function Home() {
         </div>
       </div>
       <About />
-      <Booking />
-      <Price />
       <Services />
-      <Gallery />
       <Blog />
+      <Gallery />
+      <Price />
+      <Booking />
+      {/* <Contact/> */}
       <Footer />
     </div>
   );

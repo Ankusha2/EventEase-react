@@ -5,7 +5,7 @@ export default function Booking() {
   return (
     <div>
       <div className="card mb-3" id="div22">
-        <h2>Booking</h2>
+        <h2>Book Now</h2>
         <div className="row g-0" id="div33">
           <div className="col-md-4" id="div44">
             {" "}

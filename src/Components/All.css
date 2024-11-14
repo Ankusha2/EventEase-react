@@ -91,8 +91,9 @@
 
 /* about section start */
 #image {
+  /* background-color: #c6d3e7; */
   width: 500px;
-  height: 500px;
+  height: 400px;
   background-image: url(./../Images/im3.jpg) !important;
   background-size: 100% 400px;
   background-repeat: no-repeat;
@@ -100,28 +101,32 @@
 }
 #div1 {
   border: none;
-  height: fit-content;
+  height: 100vh;
   width: 100%;
-  background-image: linear-gradient(
-    to top,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
-  );
+  background-image: linear-gradient(to top,#f3e7e9 0%,#e3eeff 99%,
+    #e3eeff 100%);
 }
 h3 {
-  margin-top: 70px;
   margin-bottom: 30px;
   font-size: 45px;
   text-align: center;
   font-weight: bold;
 }
 #div2 {
+  overflow: auto;
   margin-top: 50px;
 }
+@media (max-width: 1000px) {
+ #image{
+  margin-left: 0px;
+ }
+ #div2{
+  margin-top: 0px;
+ }
+}
 #div4 {
-  width: 500px !important ;
-  height: 500px !important;
+  width: 400px !important ;
+  height: 300px !important;
 }
 h5 {
   font-size: 35px;
@@ -163,6 +168,16 @@ h2 {
   width: 10px;
   margin-left: 160px;
 }
+@media (max-width: 1000px) {
+  #div44 {
+    margin-left: 30px;
+  }
+  #div66{
+    /* width:100vh; */
+    margin-left: 10px;
+  }
+}
+
 .form-control,
 .input-box {
   background-color: rgb(237, 195, 195);
@@ -287,7 +302,7 @@ h2 {
   grid-template-columns: auto auto auto;
 }
 @media (max-width: 1000px) {
-  #servies {
+  #services {
     grid-template-columns: repeat(1, 1fr); /* One columns */
   }
 }
@@ -366,6 +381,7 @@ text-align: center;
   background-image: linear-gradient(to top, #d4cbd0 0%, #c6d3e7 100%);
 }
 .card #im1 {
+  background-color: #c6d3e7;
   background-image: url(/src/Images/venue-4.jpg);
   height: 300px;
   width: 100%;
@@ -373,6 +389,7 @@ text-align: center;
   background-size: 100%;
 }
 .card #im2 {
+  background-color: #c6d3e7;
   background-image: url(/src/Images/im333.jpg);
   height: 300px;
   width: 100%;
@@ -392,21 +409,38 @@ text-align: center;
 .card-footer {
   text-align: center;
 }
+#blog #b1 #btn-ser {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#blog #b1 #btn-ser:hover {
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Contact  */
 #contact {
-  background-image: linear-gradient(to top, #eedbe5 0%, #c8d1de 100%);
-  display: grid;
-  place-items: center; /*Center both vertically and horizontally */
-  height: 670px;
-  margin: 0; /* Remove default margin */
+  /* background-image: linear-gradient(to top, #eedbe5 0%, #c8d1de 100%); */
+   display: flex;
+  width: 100%;
+   justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 10; /* Remove default margin */
 }
 #contact .form-control,
 #contact .input-box {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   color: rgb(110, 95, 95);
   border: 2px solid black;
-  width: 450px;
   height: 50px;
+display: block;
 }
 #contact form .form-control:focus {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #4067a4 100%);
@@ -419,7 +453,7 @@ text-align: center;
 
 #contact form .btn {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #769edf 100%);
-  margin-left: 180px;
+  text-align: center;
   width: 100px;
   height: 46px;
   font-weight: 500;
