@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EventEase-react/static/css/main.48b6a113.css",
-    "main.js": "/EventEase-react/static/js/main.3215d8c7.js",
+    "main.css": "/EventEase-react/static/css/main.cefcc857.css",
+    "main.js": "/EventEase-react/static/js/main.552becb2.js",
     "static/js/453.abdfe4c5.chunk.js": "/EventEase-react/static/js/453.abdfe4c5.chunk.js",
     "static/media/main1.avif": "/EventEase-react/static/media/main1.1a924798d2383a71a04f.avif",
     "static/media/7decor.png": "/EventEase-react/static/media/7decor.f2710be9847bde2290e7.png",
@@ -18,12 +18,12 @@
     "static/media/venue-22.jpg": "/EventEase-react/static/media/venue-22.4ba2b3555ee49eb9b13f.jpg",
     "static/media/download.jpg": "/EventEase-react/static/media/download.994738b07c946e5021a4.jpg",
     "index.html": "/EventEase-react/index.html",
-    "main.48b6a113.css.map": "/EventEase-react/static/css/main.48b6a113.css.map",
-    "main.3215d8c7.js.map": "/EventEase-react/static/js/main.3215d8c7.js.map",
+    "main.cefcc857.css.map": "/EventEase-react/static/css/main.cefcc857.css.map",
+    "main.552becb2.js.map": "/EventEase-react/static/js/main.552becb2.js.map",
     "453.abdfe4c5.chunk.js.map": "/EventEase-react/static/js/453.abdfe4c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48b6a113.css",
-    "static/js/main.3215d8c7.js"
+    "static/css/main.cefcc857.css",
+    "static/js/main.552becb2.js"
   ]
 }
