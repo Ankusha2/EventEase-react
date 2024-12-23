@@ -15,25 +15,25 @@ export default function Booking() {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Event Name"
+                placeholder="Event Name" required
               />
               <br />
               <input
                 type="text"
                 className="form-control"
-                placeholder="Event Location"
+                placeholder="Event Location" required
               />
               <br />
               <input
                 type="date"
                 className="form-control"
-                placeholder="Event Start Date"
+                placeholder="Event Start Date" required 
               />
               <br />
               <input
                 type="date"
                 className="form-control"
-                placeholder="Event End Date"
+                placeholder="Event End Date" required
               />
               <br />
               <textarea
