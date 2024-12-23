@@ -6,8 +6,8 @@ export default function Login() {
     <div id='contact'>
         <form>
       <h2>Login</h2> <br />
-    <input type="text" className="form-control" placeholder="Enter the Email"/><br/>
-    <input type="password" className="form-control" placeholder="Enter the Password"/><br/>
+    <input type="text" className="form-control" placeholder="Enter the Email" required /><br/>
+    <input type="password" className="form-control" placeholder="Enter the Password" required /><br/>
   <br/>
   <button type="submit" className="btn">Submit</button>
 </form>
